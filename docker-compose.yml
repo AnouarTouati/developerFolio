@@ -2,7 +2,5 @@ services:
   static:
     build: ./
     container_name: static
-    volumes:
-      - '.:/app:rw'
     ports:
       - 3000:3000

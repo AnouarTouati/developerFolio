@@ -11,7 +11,7 @@ WORKDIR /app
 # where available (npm@5+)
 COPY package.json ./
 
-RUN apk add --no-cache git
+# RUN apk add --no-cache git
 
 # Install any needed packages
 RUN npm install
