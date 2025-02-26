@@ -84,14 +84,16 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
+
+    {
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -100,22 +102,15 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+  
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "Unity",
+      fontAwesomeClassname: "fab fa-unity"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -179,6 +174,14 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+  
+    {
+      role: "Open Source",
+      company: "Github",
+      companylogo: require("./assets/images/githubLogo.jpg"),
+      date: "2016 – Present",
+      desc: "Creating packages and helping with projcts such as VS Code's integrated terminal. My older projects are now like diary of my journey."
+    },
     {
       role: "Software Engineer",
       company: "ClicoSolution",
@@ -193,13 +196,6 @@ const workExperiences = {
       date: "August 2023 – Present",
       desc: "Quit my fulltime role at Clicoslution to immigrate to Canada when the chance came. Hoping for better opportunites to grow as a dev."
     },
-    {
-      role: "Open Source",
-      company: "Github",
-      companylogo: require("./assets/images/githubLogo.jpg"),
-      date: "2016 – Present",
-      desc: "Creating packages and helping with projcts such as VS Code's integrated terminal. My older projects are now like diary of my journey."
-    }
   ]
 };
 
